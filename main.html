@@ -8,7 +8,46 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1><span>My</span><span>Book</span><span>List</span></h1>
+    <div class="for-group">
+      <form onsubmit="addBook(event)">
+        <label for="title">Title</label>
+        <input id="title" type="text" name="title" />
+        <label for="author">Author</label>
+        <input id="author" type="text" name="author" />
+        <label for="isbn">ISBN#</label>
+        <input id="isbn" type="text" name="isbn" />
+        <button id="submit" type="submit">Add Book</button>
+      </form>
+      <div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>ISBN#</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="book-list">
+            <!-- <tr>
+              <td>Saath khoon maaf</td>
+              <td>kapil Bhattacharya</td>
+              <td>23</td>
+              <td><button class="delete">x</button></td>
+            </tr>
+            <tr>
+              <td>Saath khoon maaf</td>
+              <td>kapil Bhattacharya</td>
+              <td>23</td>
+              <td><button onclick="delBook(this)" class="delete">x</button></td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
     <script type="text/javascript" src="./script.js">
+		
 </script>
 
 </body>

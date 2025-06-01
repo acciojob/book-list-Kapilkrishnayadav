@@ -1,1 +1,66 @@
 /*  your css code here. If applicable */
+h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: lighter;
+        display: flex;
+        justify-content: center;
+      }
+      h1 span:nth-of-type(2) {
+        color: #82b4fe;
+      }
+      .for-group form {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+      }
+      #submit {
+        width: 73px;
+        background-color: #0d6efd;
+        border-radius: 0.2rem;
+        border: 2px solid #0d6efd;
+        color: white;
+      }
+      #title {
+        border: 1px solid;
+        border-radius: 0.2rem;
+      }
+      #author {
+        border: 1px solid;
+        border-radius: 0.2rem;
+      }
+      #isbn {
+        border: 1px solid;
+        border-radius: 0.2rem;
+      }
+      body {
+        margin: 0 10%;
+      }
+
+      .table-striped thead tr th {
+        padding-right: 10rem;
+      }
+      .table-striped tbody tr {
+        
+        background-color: #f2f2f2;
+      }
+      thead tr {
+        border-bottom: 2px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+      }
+      .delete {
+        background-color: #dc3545;
+        border: 1px solid #dc3545;
+        color: white;
+        border-radius: 0.15rem;
+      }
+      .for-group div {
+        overflow-x: auto;
+      }
